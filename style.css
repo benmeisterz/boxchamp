@@ -91,7 +91,7 @@ h1 {
 i {
   font-size: 30px;
   padding-right: 30px;
-  float: right;
+  float: top right;
 }
 
 .header {
@@ -111,6 +111,6 @@ i {
     padding-top: 30px;
   }
   .footer {
-    padding: 15px 0px;
+    padding: 30px 0px;
   }
 }
