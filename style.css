@@ -85,7 +85,15 @@ h1 {
   background-color: black;
   color: white;
 }
+i {
+  font-size: 30px;
+  padding-right: 30px;
+  float: right;
+}
 
+.header {
+  margin-bottom: 0px;
+}
 @media (max-width: 768px) {
   #girl {
     display: block;
