@@ -1,0 +1,87 @@
+:root {
+  --red: #eb4444;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Saira Condensed', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Saira+Condensed:wght@700&display=swap');
+
+a.navbar-brand {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+a.nav-link {
+  font-size: 16px;
+  color: white;
+  padding-right: 30px;
+}
+
+.header h1 {
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8.125em;
+  line-height: 90%;
+  font-family: 'Saira Condensed';
+  padding-top: 197px;
+  padding-bottom: 198px;
+}
+span {
+  color: var(--red);
+}
+
+.header {
+  background-color: black;
+  background: url('./Boy\ fight.jpg');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top center;
+  /* background-size: 400px; */
+  /* background-blend-mode: darken; */
+  /* backdrop-filter: contrast(2); */
+}
+
+#girl {
+  max-width: 550px;
+  height: 502px;
+  object-fit: cover;
+}
+
+.main {
+  padding-top: 151px;
+  padding-bottom: 151px;
+  background-color: #d9d9d9;
+  margin: 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.main p {
+  font-family: 'inter';
+  font-size: 16px;
+  line-height: 170%;
+  padding: 46px 0px;
+}
+
+#how {
+  position: relative;
+}
+.main button {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  margin-left: 12px;
+}
+
+.footer {
+  padding: 131px 0px;
+  background-color: black;
+  color: white;
+}
