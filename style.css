@@ -10,6 +10,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Saira+Condensed:wght@700&display=swap');
 
+#logo {
+  background-color: var(--red);
+}
 a.navbar-brand {
   font-weight: 700;
   font-size: 32px;
