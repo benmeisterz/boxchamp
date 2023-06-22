@@ -97,6 +97,16 @@ i {
 .header {
   margin-bottom: 0px;
 }
+
+@media (min-width: 359px) and (max-width: 767px) {
+  #girl {
+    height: 200px;
+  }
+  .header h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+}
 @media (max-width: 768px) {
   #girl {
     display: block;
@@ -112,5 +122,8 @@ i {
   }
   .footer {
     padding: 30px 0px;
+  }
+  i {
+    padding-right: 15px;
   }
 }
